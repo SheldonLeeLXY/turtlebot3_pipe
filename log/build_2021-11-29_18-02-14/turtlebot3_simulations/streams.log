@@ -1,0 +1,29 @@
+[0.005s] Invoking command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake /home/sheldon/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sheldon/turtlebot3_ws/install/turtlebot3_simulations
+[0.014s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.028s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.194s] -- Configuring done
+[0.196s] -- Generating done
+[0.196s] -- Build files have been written to: /home/sheldon/turtlebot3_ws/build/turtlebot3_simulations
+[0.199s] Invoked command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake /home/sheldon/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sheldon/turtlebot3_ws/install/turtlebot3_simulations
+[0.200s] Invoking command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/turtlebot3_ws/build/turtlebot3_simulations -- -j16 -l16
+[0.223s] Invoked command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/turtlebot3_ws/build/turtlebot3_simulations -- -j16 -l16
+[0.235s] Invoking command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/turtlebot3_ws/build/turtlebot3_simulations
+[0.240s] -- Install configuration: ""
+[0.241s] -- Execute custom install script
+[0.241s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[0.247s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[0.252s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[0.258s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[0.264s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[0.269s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[0.275s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[0.280s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[0.285s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[0.290s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[0.295s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[0.300s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[0.308s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[0.313s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[0.318s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[0.324s] Invoked command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo:/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/turtlebot3_ws/build/turtlebot3_simulations

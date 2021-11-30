@@ -1,0 +1,52 @@
+[0.016s] Invoking command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheldon/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node
+[0.051s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.216s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.417s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.472s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.510s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.620s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.677s] -- Found tf2: 0.13.12 (/opt/ros/foxy/share/tf2/cmake)
+[0.686s] -- Found tf2_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[0.834s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[0.950s] -- Configuring done
+[0.964s] -- Generating done
+[0.965s] -- Build files have been written to: /home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node
+[0.970s] Invoked command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheldon/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node
+[0.972s] Invoking command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node -- -j16 -l16
+[1.024s] [100%] Built target turtlebot3_fake_node
+[1.031s] Invoked command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node -- -j16 -l16
+[1.053s] Invoking command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node
+[1.057s] -- Install configuration: ""
+[1.058s] -- Execute custom install script
+[1.058s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[1.058s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[1.058s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[1.059s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[1.059s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[1.059s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[1.059s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[1.059s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[1.059s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[1.060s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[1.060s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[1.060s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[1.060s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[1.060s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[1.061s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[1.061s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[1.061s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[1.061s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[1.061s] -- Symlinking: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[1.067s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[1.068s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.068s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.068s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[1.068s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[1.068s] -- Up-to-date symlink: /home/sheldon/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[1.070s] Invoked command in '/home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/turtlebot3_ws/build/turtlebot3_fake_node
