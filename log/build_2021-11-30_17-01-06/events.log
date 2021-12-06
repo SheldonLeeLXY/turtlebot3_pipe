@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000334] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000349] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000389] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000434] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099705] (-) TimerEvent: {}
+[0.162648] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/sheldon/turtlebot3_ws/build/py_pubsub/build', 'install', '--prefix', '/home/sheldon/turtlebot3_ws/install/py_pubsub', '--record', '/home/sheldon/turtlebot3_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/sheldon/turtlebot3_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'sheldon', 'SSH_AGENT_PID': '3621', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/sheldon', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3398', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=85a64ef5c70d7f69aeb850d261a52ca0', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'sheldon', 'JOURNAL_STREAM': '8:60779', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sheldon', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sheldon:@/tmp/.ICE-unix/3660,unix/sheldon:/tmp/.ICE-unix/3660', 'INVOCATION_ID': '35202903a7c448aa895f9f51ea3912c0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fdf7df00_3f0a_4f6a_84f4_0ecb5db42560', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1233', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sheldon/turtlebot3_ws/build/py_pubsub', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=85a64ef5c70d7f69aeb850d261a52ca0', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.199811] (-) TimerEvent: {}
+[0.300075] (-) TimerEvent: {}
+[0.311902] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.312333] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[0.312504] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.312601] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.312687] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.312845] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.312912] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.314701] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.340707] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.341134] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.341227] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.341286] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.341374] (py_pubsub) StdoutLine: {'line': b'creating /home/sheldon/turtlebot3_ws/build/py_pubsub/build\n'}
+[0.341440] (py_pubsub) StdoutLine: {'line': b'creating /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib\n'}
+[0.341506] (py_pubsub) StdoutLine: {'line': b'creating /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.341571] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.341632] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.341697] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.341746] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.342116] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.342919] (py_pubsub) StdoutLine: {'line': b'creating /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[0.342990] (py_pubsub) StdoutLine: {'line': b'copying /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[0.343059] (py_pubsub) StdoutLine: {'line': b'copying /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[0.343126] (py_pubsub) StdoutLine: {'line': b'copying /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[0.343388] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc\n'}
+[0.344060] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc\n'}
+[0.344183] (py_pubsub) StderrLine: {'line': b'  File "/home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py", line 2\n'}
+[0.344271] (py_pubsub) StderrLine: {'line': b'    form rclpy.node import Node\n'}
+[0.344325] (py_pubsub) StderrLine: {'line': b'         ^\n'}
+[0.344376] (py_pubsub) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[0.344442] (py_pubsub) StderrLine: {'line': b'\n'}
+[0.344492] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[0.344544] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.344800] (py_pubsub) StdoutLine: {'line': b'creating /home/sheldon/turtlebot3_ws/install/py_pubsub/share/ament_index\n'}
+[0.344880] (py_pubsub) StdoutLine: {'line': b'creating /home/sheldon/turtlebot3_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.344946] (py_pubsub) StdoutLine: {'line': b'creating /home/sheldon/turtlebot3_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.345020] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/sheldon/turtlebot3_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.345071] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/sheldon/turtlebot3_ws/install/py_pubsub/share/py_pubsub\n'}
+[0.345119] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.346339] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[0.346855] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.359579] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.359691] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.359808] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/sheldon/turtlebot3_ws/build/py_pubsub/install.log'\n"}
+[0.372610] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.380087] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.380532] (-) EventReactorShutdown: {}
