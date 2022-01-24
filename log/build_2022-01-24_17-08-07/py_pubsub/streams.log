@@ -1,0 +1,26 @@
+[0.484s] Invoking command in '/home/sheldon/turtlebot3_ws/src/py_pubsub': PYTHONPATH=/home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/sheldon/turtlebot3_ws/build/py_pubsub/build install --prefix /home/sheldon/turtlebot3_ws/install/py_pubsub --record /home/sheldon/turtlebot3_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.642s] running egg_info
+[0.642s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.642s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.643s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.643s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.643s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.666s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.667s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] copying py_pubsub/turtlebot_function.py -> /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub
+[0.667s] running install
+[0.668s] running install_lib
+[0.668s] copying /home/sheldon/turtlebot3_ws/build/py_pubsub/build/lib/py_pubsub/turtlebot_function.py -> /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.669s] byte-compiling /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/turtlebot_function.py to turtlebot_function.cpython-38.pyc
+[0.670s] running install_data
+[0.670s] running install_egg_info
+[0.671s] removing '/home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[0.671s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[0.672s] running install_scripts
+[0.683s] Installing listener script to /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/py_pubsub
+[0.683s] Installing talker script to /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/py_pubsub
+[0.683s] Installing turtlebot script to /home/sheldon/turtlebot3_ws/install/py_pubsub/lib/py_pubsub
+[0.684s] writing list of installed files to '/home/sheldon/turtlebot3_ws/build/py_pubsub/install.log'
+[0.697s] Invoked command in '/home/sheldon/turtlebot3_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/sheldon/turtlebot3_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/sheldon/turtlebot3_ws/build/py_pubsub/build install --prefix /home/sheldon/turtlebot3_ws/install/py_pubsub --record /home/sheldon/turtlebot3_ws/build/py_pubsub/install.log --single-version-externally-managed

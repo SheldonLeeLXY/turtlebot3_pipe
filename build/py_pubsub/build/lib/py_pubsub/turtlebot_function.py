@@ -6,7 +6,12 @@ from sensor_msgs.msg import Imu, Image
 from cv_bridge import CvBridge
 import cv2
 
-angle = None
+from pyquaternion import Quaternion
+import math
+
+init_angle = None
+curr_angle = None
+last_angle = None
 imgName = 1
 
 class TurtlebotNode(Node):
@@ -36,29 +41,44 @@ class TurtlebotNode(Node):
         msg = Twist()
         msg.angular.z = -0.1
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg)
+        # self.get_logger().info('Publishing: "%s"' % msg)
 
     def listener_callback1(self, msg):
-        global angle
-        if angle == None:
-            angle = msg.orientation.w
-        elif abs(angle + msg.orientation.w) < 0.01:
+        global init_angle
+        global curr_angle
+
+        orientation_q = msg.orientation
+        q = Quaternion(orientation_q.w, orientation_q.x, orientation_q.y, orientation_q.z)
+        if q.degrees > 0:
+            curr_angle = q.degrees
+        else:
+            curr_angle = q.degrees + 360
+        # print(q.axis)
+        # print(curr_angle)
+
+        if init_angle == None:
+            init_angle = curr_angle
+            print(init_angle)
+        elif curr_angle > 359:
             self.get_logger().info('Robot has finished a full circle rotation!')
             stop()
-            exit()
-        self.get_logger().info('I heard: "%s"' % msg.orientation.w)
-        print(angle)
+        # self.get_logger().info('I heard: "%s"' % msg.orientation.w)
+        # print(init_angle)
 
     def listener_callback2(self, data):
-        self.get_logger().info('Receiving video frame')
-
-        current_frame = self.br.imgmsg_to_cv2(data)
-
-        cv2.imshow("camera", current_frame)
+        global curr_angle
         global imgName
-        # cv2.imwrite('/home/sheldon/ros_images/' + str(imgName) + '.jpg', current_frame)
-        imgName += 1
-        cv2.waitKey(1)
+        global last_angle
+
+        if (last_angle == None) or (abs(curr_angle - last_angle) > 20):
+            self.get_logger().info('I heard: "%s"' % curr_angle)
+            last_angle = curr_angle
+            self.get_logger().info('Receiving video frame')
+            current_frame = self.br.imgmsg_to_cv2(data)
+            cv2.imshow("camera", current_frame)
+            cv2.imwrite('/home/sheldon/ros_images/' + str(imgName) + '.jpg', current_frame)
+            imgName += 1
+            cv2.waitKey(1)
 
 class StopPublisher(Node):
 
