@@ -11,6 +11,8 @@
 /home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
 /home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pipe_texture/model.config
 /home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pipe_texture/model.sdf
+/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pipe_texture2/model.config
+/home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pipe_texture2/model.sdf
 /home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
 /home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
 /home/sheldon/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
